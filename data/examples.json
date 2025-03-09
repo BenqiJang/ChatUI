@@ -1,0 +1,90 @@
+[
+  {
+    "act": "Location Result State",
+    "prompt": "Quality status export to customer documentation systems.\n"
+  },
+  {
+    "act": "Station index",
+    "prompt": "Station ID used for real-time line balancing.\n"
+  },
+  {
+    "act": "Component-ROC-Manufacturer",
+    "prompt": "Identifies the manufacturer of the component for ROC (Return of Components) tracking. A null entry indicates that this information was not captured for the current run."
+  },
+  {
+    "act": "Location Result State",
+    "prompt": "Indicates the outcome of the station’s location or positioning test during final assembly. A null value means that no specific result was recorded during this phase."
+  },
+  {
+    "act": "OG_HeatingCurrent",
+    "prompt": "The current supplied to the induction coil during the heating phase. It is critical for delivering the required energy to achieve proper heating of the motor housing."
+  },
+  {
+    "act": "OG_HeatingFrequency",
+    "prompt": "The frequency at which the induction heating operates, affecting the efficiency and uniformity of the heating process."
+  },
+  {
+    "act": "OG_HeatingPower",
+    "prompt": "The power delivered during the inductive heating process. This energy input is crucial to achieve the desired heating efficiency for the motor housing."
+  },
+  {
+    "act": "OG_HeatingTemperature",
+    "prompt": "The target or measured temperature during the inductive heating process. It ensures that the motor housing reaches the proper temperature for an effective assembly with the stator."
+  },
+  {
+    "act": "pvCurveXMas-Y",
+    "prompt": "Represents the maximum force (Y) measured at the maximum pressing distance (X) on the process control curve. It indicates the highest force encountered during the cycle."
+  },
+  {
+    "act": "pvCurveXMax-X",
+    "prompt": "Represents the maximum distance (X) recorded on the process control curve. It indicates the farthest displacement reached by the tool during the assembly cycle."
+  },
+  {
+    "act": "pvCurveXMin-X",
+    "prompt": "Represents the minimum distance (X) recorded on the process control curve. It defines the point in the cycle where the tool is at its closest approach, serving as a reference for the related force measurement."
+  },
+  {
+    "act": "pvCurveXMin-Y",
+    "prompt": "Represents the force (Y) measured at the minimal distance (X) on the process control curve. In other words, it shows the force value when the pressing distance is at its lowest during the cycle."
+  },
+  {
+    "act": "Station index",
+    "prompt": "The index or identifier of the assembly station. A null value implies that it was not assigned or is not applicable for this record."
+  },
+  {
+    "act": "Tool position",
+    "prompt": "Duplicate entry of the tool position in final assembly; similarly, a null value indicates no measurement was recorded in this instance."
+  },
+  {
+    "act": "windingIdentifier",
+    "prompt": "An identifier for the winding subassembly within the stator. It is used for quality and traceability purposes. A null value indicates that no identifier was recorded."
+  },
+  {
+    "act": "Cooling_Final_Temp",
+    "prompt": "The final temperature measured during the cooling stage after the inductive heating process. This confirms that the assembly has cooled to a safe and stable temperature before further handling."
+  },
+  {
+    "act": "Location Result State",
+    "prompt": "Duplicate entry indicating the station’s location result; again, no value was recorded."
+  },
+  {
+    "act": "Pressing_Distance",
+    "prompt": "The displacement applied during the pressing step to seat the stator into the housing. This ensures proper engagement between the stator and housing during final assembly."
+  },
+  {
+    "act": "Station index",
+    "prompt": "Duplicate entry for the station index; with no value provided, it remains unassigned or not applicable for this run."
+  },
+  {
+    "act": "Tool position",
+    "prompt": "The programmed or detected position of the tool during final assembly. A null value indicates no measurement was recorded or that the parameter is not applicable in this run."
+  },
+  {
+    "act": "BCoverID",
+    "prompt": "Identifier for the B-cover component."
+  },
+  {
+    "act": "Component-BCover-Batch",
+    "prompt": "Batch identifier for the B-cover component."
+  }
+]
